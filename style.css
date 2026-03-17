@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 25px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Header */
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Image */
+.hero-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Features */
+.features p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Button */
+.cta-btn {
+    display: block;
+    margin-top: 20px;
+    background: #28a745;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #218838;
+}
+
+/* Disclaimer */
+.disclaimer {
+    font-size: 11px;
+    color: #888;
+    margin-top: 15px;
+}
